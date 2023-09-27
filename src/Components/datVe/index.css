@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'fontGame';
+    src: url('../../../public/font/Pony.ttf');
+}
+body {
+    font-family: 'fontGame';
+    color: #C0C0C0;
+}
+h1{
+    color: white;
+    padding: 30px;
+}
+
+.datVe{
+    background-image: url('../../../public/img/bgmovie.jpg');
+   background-size: cover;
+   height: 100vh;
+}
+.overlay{
+    width: 700px;
+    background-color: rgba(17, 2, 2, 0.61);
+    
+}
+p{
+    color: orangered;
+}
+.smallBox{
+    display: inline-block;
+}
