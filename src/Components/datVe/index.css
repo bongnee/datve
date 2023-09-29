@@ -27,3 +27,36 @@ p{
 .smallBox{
     display: inline-block;
 }
+li.smallBox {
+    text-align: left;
+    display: inline-block;
+    margin-right: 1em;
+
+}
+.smallBox::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.greenBox::before {
+    content: "";
+    background: Green;
+}
+.redBox::before {
+    content: "";
+    background: red;
+}
+.emptyBox::before {
+    content: "";
+    background: white;
+}
+td {
+    width: 40px;
+    font-weight: 600;
+    font-size: 1em;
+    padding-top: 7px;
+    height: 24px;
+    color: #fff;
+}
