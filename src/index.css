@@ -8,7 +8,11 @@
   font-family: "fontGame";
   src: url("../public/font/Pony.ttf");
 }
-
+.heading{
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+}
 .bookingMovie {
   font-family: "fontGame";
   background-image: url("../public/img/bgmovie.jpg");

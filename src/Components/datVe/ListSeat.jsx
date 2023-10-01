@@ -190,12 +190,15 @@ export default class ListSeat extends Component {
 
      showList = () => {
         return this.seatArray.map((seatRow, index) => {
-          return <SeatSelection  key={index} seatRow={seatRow} />;
+          return  <SeatSelection  key={index} seatRow={seatRow} />;
         });
       };
   render() {
     return (
-      <div>{this.showList()}</div>
+      <div>
+        <h1 className='heading'>MOVIE SEAT SELECTION</h1>
+        {this.showList()}
+        </div>
     )
   }
 }

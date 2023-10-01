@@ -26,8 +26,11 @@ export default class DatVe extends Component {
       <div className="bookingMovie">
         <div className="overlay pb-4">
           <div className="container">
+           
             <div className="row">
+           
               <div className="col-9">
+              
                 <ListSeat />
               </div>
               <div className="col-3">
